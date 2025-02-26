@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="index"><span>Danila</span>Gorelov</a>
+
+            <nav class="navbar">
+                <a href="edu.html">Education</a>
+                <a href="projects.html">Projects</a>
+                <a onclick="openSkills()">Skills</a>
+            </nav>
+
+            <button class="contact" onclick="openPopup()">Contact Me</button>
+        </header>
+
+        <div class="contact-popup" id="popup">
+            <h2>Contact Information</h2>
+            <div class="popup-email">
+                <img src="emailpng.png">
+                <p1>gorelov.d101@gmail.com</p1>
+            </div>
+            <br>
+            <div class="popup-linkedin">
+                <img src="linkedinpng.png">
+                <a href="https://www.linkedin.com/in/danila-gorelov/">danila-gorelov</a>
+            </div>
+            <button class="btn-popup" onclick="closePopup()">Close</button>
+        </div>
+
+        <section class="home">
+            <div class="home-content">
+                <h3>Hello</h3>
+                <h1>I'm <span>Danila Gorelov</span>, a Computer Science & Software Engineering student</h1>
+                <p>A highly motivated third-year Computer Science student with a strong passion for coding and a
+                    proven ability to solve complex problems through both academic and personal projects. Adept at
+                    working under pressure, with well-developed organisational skills honed through part-time
+                    employment. Skilled in applying technical knowledge to real-world challenges, showing a
+                    commitment to continuous learning and innovation.
+                    </p>
+
+                    <div class="skills" id="skills">
+                        <h1>My Skills</h1>
+                        <div class="skills-content">
+                            <h3>Technical Skills</h3>
+                            <p>Java</p><p>HTML</p><p>CSS</p><p>JavaScript</p><p>C++</p>
+                            <p>PHP</p><p>SQL Databases</p><p>NoSQL Databases</p>
+                            <p>Excel</p><p>UX & UI</p><p>Software Testing</p>
+                            <p>Computer Networks</p><p>Data Structures & Algorithms</p><p>Mathematics</p>
+                            <p>Windows</p><p>Linux</p><p>React</p><p>Node.js</p>
+                        <br><br></div>
+
+                        <div class="skills-content">
+                            <h3>Soft Skills</h3>
+                            <p>Teamwork</p><p>Time-Management</p><p>Leadership</p>
+                            <p>Customer Service</p><p>Communication</p><p>Problem Solving</p>
+                            <p>Adaptability</p><p>Patience</p>
+                        <br><br></div>
+
+                        <div class="skills-content">
+                            <h3>Languages</h3>
+                            <p>English</p><p>Russian</p>
+                        <br><br></div>
+                    </div>
+
+                    
+                
+                    <div class="btn-box">
+                        <button class="contact-btn" onclick="openPopup()">Contact Me</button>
+                        <a href="projects.html" class="project-btn">My Projects</a>
+                    </div>
+            </div>
+            <br><br>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
